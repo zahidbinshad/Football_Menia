@@ -68,3 +68,23 @@ header .log-in a{
 .hero .hero-banner img{
     width: 556px;
 }
+.player-info{
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 70px auto;
+    
+}
+
+.player-info-box{
+    padding: 15px;
+    box-shadow: 0px 4px 10px #8080801e;
+    width: 300px;
+    margin: 20px 10px;
+
+}
+
+.player-info-box img {
+    height: 256px;
+    width: 300px;
+}
